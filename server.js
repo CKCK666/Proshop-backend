@@ -15,7 +15,7 @@ const app = express();
 connectDB();
 app.use(express.json());
 const corsOptions ={
-  origin:'http://localhost:3000', 
+  origin:"https://super-pony-948498.netlify.app", 
   credentials:true,            //access-control-allow-credentials:true
   optionSuccessStatus:200
 }
